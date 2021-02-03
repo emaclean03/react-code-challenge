@@ -1,12 +1,7 @@
 import React, {useEffect} from 'react';
 import {MockAPI} from "./Data/MockAPI";
 import Device from "./Components/Device";
-
-interface IDevice {
-    DeviceID: number,
-    DeviceName: string,
-    DeviceStatus: boolean,
-}
+import {IDevice} from "./Common/interfaces";
 
 const App = () => {
     return (
